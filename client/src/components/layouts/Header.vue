@@ -30,10 +30,10 @@ const endSession = () => {
       <div class="header_content">
         <div style="display: flex; align-items: center;" class="logo_1">
           <div @click="router.push(HOME_ROUTE)" class="logo">
-            <img src="/icons/1.png" alt="">
-            <h1 style="margin-right: 50px;" class="size_1">L<span>i</span>veEvents</h1>
+            <img style="width:60px; height:60px;" src="/icons/gerb.png" alt="">
+            <h1 style="margin-right: 50px;" class="size_1">M<span>i</span>reaEvents</h1>
           </div>
-          <router-link style="text-decoration: none; color: var(--black-color);" class="size_7" :to="CREATE_EVENT">Создать
+          <router-link style="text-decoration: none; color: var(--secondary-color );" class="size_7" :to="CREATE_EVENT">Создать
             мероприятие</router-link>
         </div>
         <div v-if="auth.isAuth === false" class="btns">
@@ -95,7 +95,9 @@ header {
   display: flex;
   align-items: center;
   gap: 6px;
-
+  span{
+    color : var(--main-color)
+  }
   & img {
     width: 20px;
     height: 20px;

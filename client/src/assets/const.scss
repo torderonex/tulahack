@@ -21,6 +21,16 @@ body {
 }
 button{cursor: pointer;}
 
+.subheading{
+  color : var(--secondary-color) !important;
+}
+
+input{
+  &::placeholder{
+    color : var(--secondary-color) !important;
+  }
+  color : var(--secondary-color) !important;
+}
 
 //fonts
 .size_1{

@@ -43,7 +43,7 @@ const Auth = async () => {
       <h3 class="size_3">Вход</h3>
       <div class="links">
         <a @click.prevent href="" class="active">Вход</a>
-        <a @click.prevent data-bs-toggle="modal" data-bs-target="#modalRegistration" href="">Регистрация</a>
+        <a @click.prevent data-bs-toggle="modal" style="color:var(--secondary-color)" data-bs-target="#modalRegistration" href="">Регистрация</a>
       </div>
       <!-- <InputItem :input-el="inputs" /> -->
       <div class="input_el_full">

@@ -7,8 +7,8 @@
     <div class="container">
       <div class="footer_items">
         <div class="logo">
-          <h1 class="size_3">L<span>i</span>veEvents</h1>
-          <p class="size_7">© 2023 “LiveEvents” Все права защищены.</p>
+          <h1 class="size_3">M<span>i</span>reaEvents</h1>
+          <p class="size_7">© 2023 “MireaEvents” Все права защищены.</p>
         </div>
         <div class="icons">
           <a target="_blank" href="https://t.me/youngjuicycashrussia" style="text-decoration: none; color: var(--black-color);" class="icons_item">
@@ -28,7 +28,7 @@
 <style lang="scss" scoped>
 footer {
   background: var(--main-color);
-
+  color : var(--black-color);
   .footer_items {
     display: flex;
     align-items: center;

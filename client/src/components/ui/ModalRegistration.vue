@@ -78,7 +78,7 @@ const Registration = async () => {
     <div class="modal_registration">
       <h3 class="size_3">Регистрация</h3>
       <div class="links">
-        <a @click.prevent data-bs-toggle="modal" data-bs-target="#modalEntry" href="">Вход</a>
+        <a @click.prevent data-bs-toggle="modal" style="color:var(--secondary-color)" data-bs-target="#modalEntry" href="">Вход</a>
         <a href="" class="active">Регистрация</a>
       </div>
       <div class="avatar">
